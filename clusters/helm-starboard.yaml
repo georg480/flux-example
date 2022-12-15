@@ -16,10 +16,10 @@ metadata:
 spec:
   chart:
     spec:
-      chart: starboard-operator
+      chart: aqua/starboard-operator
       sourceRef:
         kind: HelmRepository
         name: starboard-operator
-				namespace: flux-system
+        namespace: flux-system
       version: 0.10.3
   interval: 1m0s
